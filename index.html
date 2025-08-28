@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Hub | Misty Waters Portfolio</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; background-color: #f0f2f5; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
+    header { background-color: #fff; padding: 2rem; text-align: center; border-bottom: 1px solid #ddd; }
+    h1 { color: #1e293b; margin: 0; }
+    main { flex-grow: 1; padding: 2rem; display: flex; justify-content: center; align-items: center; }
+    .container { max-width: 1000px; width: 100%; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    .card { background-color: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 1.5rem; text-align: center; transition: transform 0.2s, box-shadow 0.2s; }
+    .card:hover { transform: translateY(-5px); box-shadow: 0 8px 12px rgba(0,0,0,0.15); }
+    .card h2 { margin-top: 0; color: #4f46e5; }
+    .card p { color: #555; }
+    .card a { display: inline-block; background-color: #4f46e5; color: #fff; padding: 0.75rem 1.5rem; border-radius: 5px; text-decoration: none; font-weight: bold; margin-top: 1rem; transition: background-color 0.2s; }
+    .card a:hover { background-color: #4338ca; }
+    footer { background-color: #1e293b; color: #fff; text-align: center; padding: 1.5rem; margin-top: auto; }
+    footer a { color: #a5b4fc; text-decoration: none; margin: 0 1rem; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Project Hub: Misty Waters Portfolio</h1>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="card">
+        <h2>Documentation</h2>
+        <p>Project overview, requirements, and user flows.</p>
+        <a href="docs/overview.md">Read Docs</a>
+      </div>
+      <div class="card">
+        <h2>Wireframes</h2>
+        <p>Low-fidelity layouts and structural blueprints.</p>
+        <a href="wireframes/index.html">View Wireframes</a>
+      </div>
+      <div class="card">
+        <h2>Interactive Prototype</h2>
+        <p>A clickable, high-fidelity prototype with live data.</p>
+        <a href="prototype/index.html">Launch Prototype</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <a href="docs/overview.md">View Documentation</a>
+    <a href="wireframes/index.html">View Wireframe</a>
+  </footer>
+
+</body>
+</html>
