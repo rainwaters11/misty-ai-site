@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Wireframe</title>
+  <style>
+    body { font-family: 'Courier New', Courier, monospace; color: #333; margin: 0; background: #fff; }
+    .wireframe-container { display: flex; }
+    .main-content { width: 70%; border-right: 2px dashed #999; }
+    .notes { width: 30%; padding: 20px; background-color: #f5f5f5; font-size: 14px; }
+    .notes h3 { margin-top: 0; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+    .notes p { margin-top: 0; color: #555; }
+    .section { border: 2px solid #ccc; margin: 20px; padding: 20px; }
+    .box { border: 1px solid #999; background: #e0e0e0; text-align: center; padding: 10px; }
+    .flex-container { display: flex; justify-content: space-between; align-items: center; }
+    .grid-container { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+    .text-block { border: 1px dashed #999; height: 80px; margin-top: 10px; display: flex; align-items: center; justify-content: center; background: #f9f9f9; }
+    h1, h2, h3, p { margin: 0; padding: 0; }
+    p { font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="wireframe-container">
+    <div class="main-content">
+
+      <!-- Header -->
+      <div class="section">
+        <div class="flex-container">
+          <div class="box" style="width: 150px;">Misty Waters</div>
+          <div class="box" style="width: 300px;">Nav Links (About, Projects, etc)</div>
+        </div>
+      </div>
+
+      <!-- Hero -->
+      <div class="section">
+        <h2 style="text-align: center;">[H2] Generative AI Engineer</h2>
+        <div class="text-block"><p>Paragraph with a mission statement.</p></div>
+      </div>
+
+      <!-- About -->
+      <div class="section">
+        <h3>[H3] About Me</h3>
+        <div class="text-block" style="height: 120px;"><p>Longer paragraph describing background and skills.</p></div>
+      </div>
+
+      <!-- Projects -->
+      <div class="section">
+        <h3>[H3] Projects</h3>
+        <div class="grid-container">
+          <div class="box" style="height: 100px;"><h4>Project 1</h4><p>Description + Link</p></div>
+          <div class="box" style="height: 100px;"><h4>Project 2</h4><p>Description + Link</p></div>
+          <div class="box" style="height: 100px;"><h4>Project 3</h4><p>Description + Link</p></div>
+        </div>
+      </div>
+
+      <!-- Resume -->
+      <div class="section" style="text-align: center;">
+        <h3>[H3] Resume</h3>
+        <p style="margin-bottom: 10px;">Short intro text</p>
+        <div class="box" style="width: 150px; margin: auto; padding: 15px;">CTA Button</div>
+      </div>
+
+      <!-- Contact -->
+      <div class="section" style="text-align: center;">
+        <h3>[H3] Let's Connect</h3>
+        <p style="margin-bottom: 10px;">Description of open roles</p>
+        <div class="text-block" style="height: 60px;"><p>Email Link | LinkedIn Link | GitHub Link</p></div>
+      </div>
+
+      <!-- Footer -->
+      <div class="section" style="text-align: center; padding: 10px;">
+        <p>Copyright text</p>
+      </div>
+
+    </div>
+    <div class="notes">
+      <h3>Wireframe Notes</h3>
+      <p><strong>Header:</strong> Name on left, nav on right. Should be clean and simple.</p>
+      <p><strong>Hero:</strong> High impact. Main value proposition is front and center.</p>
+      <p><strong>About:</strong> Standard bio section. A single block of text is sufficient.</p>
+      <p><strong>Projects:</strong> A grid layout is best for scannability. Each card needs a title, brief description, and a clear link.</p>
+      <p><strong>Resume:</strong> Simple Call-To-Action. A button is more prominent than a simple link.</p>
+      <p><strong>Contact:</strong> Centralized contact info. Links should be distinct.</p>
+      <p><strong>Layout:</strong> A single-column layout for mobile will be required. The grid can stack vertically.</p>
+    </div>
+  </div>
+</body>
+</html>
