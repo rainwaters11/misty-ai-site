@@ -3,18 +3,56 @@
     "title": "Let's Vent – AI Wellness Copilot",
     "description": "GPT-4 powered mental health journaling tool – 2nd place at CreateHERfest Hackathon.",
     "link": "https://devpost.com/software/let-s-vent",
-    "linkText": "View on Devpost"
+    "linkText": "View on Devpost",
+    "tags": ["GPT-4", "Mental Health", "Hackathon", "Wellness"],
+    "category": "AI & Wellness"
   },
   {
     "title": "Mosaic Culture – AI Storytelling App",
     "description": "LangChain & RAG-powered cultural storytelling platform. Curates unique narratives.",
     "link": "https://github.com/rainwaters11/Mosaic-Culture",
-    "linkText": "View on GitHub"
+    "linkText": "View on GitHub",
+    "tags": ["LangChain", "RAG", "Cultural AI", "Storytelling"],
+    "category": "AI & Culture"
   },
   {
     "title": "BlockWhere – Web3 Identity Verifier",
     "description": "Smart contract–connected AI agent that validates blockchain identities.",
     "link": "https://github.com/inamprograms/BlockWhere",
-    "linkText": "View on GitHub"
+    "linkText": "View on GitHub",
+    "tags": ["Smart Contracts", "AI Agent", "Web3", "Identity"],
+    "category": "AI & Web3"
+  },
+  {
+    "title": "Celo Emoji Translator",
+    "description": "A fun Celo blockchain-powered dApp that translates emoji phrases into smart contract transactions. Built as part of an ecosystem onboarding challenge to demonstrate Celo compatibility and UX experimentation.",
+    "link": "https://github.com/rainwaters11/celo-emoji-translator",
+    "linkText": "View on GitHub",
+    "tags": ["Celo", "Smart Contracts", "Web3 UX", "JavaScript"],
+    "category": "Web3 Builds"
+  },
+  {
+    "title": "GoddessFlight – AI + Blockchain Travel Oracle",
+    "description": "A poetic AI-powered travel oracle that delivers blockchain-backed flight guidance. Merges LLMs with symbolic interpretation and cryptographic randomness.",
+    "link": "https://github.com/rainwaters11/GoddessFlight",
+    "linkText": "View on GitHub",
+    "tags": ["Generative AI", "Blockchain", "Oracles", "Experimental UX"],
+    "category": "Web3 Builds"
+  },
+  {
+    "title": "AI Accord – Farcaster Frame Quiz",
+    "description": "A sci-fi ethics quiz built on Farcaster using Frames. Matches users with fictional AI archetypes based on their philosophical answers. Encourages exploration of identity and alignment through decentralized UI.",
+    "link": "https://github.com/rainwaters11/Accord",
+    "linkText": "View on GitHub",
+    "tags": ["Farcaster", "Frames", "Web3 Identity", "Generative UX"],
+    "category": "Web3 Builds"
+  },
+  {
+    "title": "GoddessCryptoOracle – Hackathon Submission",
+    "description": "A mythologically themed Web3 oracle built during a hackathon to simulate divine responses on-chain. Features a smart contract + frontend combination that delivers symbolic messages.",
+    "link": "https://github.com/rainwaters11/GoddessCryptoOracle",
+    "linkText": "View on GitHub",
+    "tags": ["Solidity", "Oracle", "Ethereum", "Mythic Design", "Hackathon Build"],
+    "category": "Web3 Builds"
   }
 ]

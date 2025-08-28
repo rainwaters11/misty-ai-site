@@ -6,9 +6,22 @@
   <title>Project Hub | Misty Waters Portfolio</title>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; background-color: #f0f2f5; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
-    header { background-color: #fff; padding: 2rem; text-align: center; border-bottom: 1px solid #ddd; }
-    h1 { color: #1e293b; margin: 0; }
-    main { flex-grow: 1; padding: 2rem; display: flex; justify-content: center; align-items: center; }
+    header { background-color: #fff; padding: 4rem 2rem; text-align: center; border-bottom: 1px solid #ddd; }
+    .profile-section { margin-bottom: 2rem; }
+    .profile-image { width: 150px; height: 150px; border-radius: 50%; margin: 0 auto 1rem; border: 4px solid #4f46e5; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    .profile-image img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; }
+    .badges { display: flex; justify-content: center; gap: 0.5rem; margin-bottom: 1rem; }
+    .badge { background-color: #e0e7ff; color: #4f46e5; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; font-weight: 500; }
+    .social-links { display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; }
+    .social-links a { color: #666; text-decoration: none; padding: 0.5rem; border-radius: 50%; transition: color 0.2s; }
+    .social-links a:hover { color: #4f46e5; }
+    .subtitle { color: #666; font-size: 1.125rem; margin: 0.5rem 0 0; }
+    .featured { text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 3rem 2rem; }
+    .featured h2 { color: white; font-size: 2.5rem; margin-bottom: 1rem; }
+    .featured-description { font-size: 1.25rem; margin-bottom: 2rem; opacity: 0.9; }
+    .featured-link { display: inline-block; background-color: rgba(255, 255, 255, 0.2); color: white; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.125rem; transition: background-color 0.2s; border: 2px solid rgba(255, 255, 255, 0.3); }
+    .featured-link:hover { background-color: rgba(255, 255, 255, 0.3); }
+    main { flex-grow: 1; padding: 4rem 2rem; display: flex; justify-content: center; align-items: center; }
     .container { max-width: 1000px; width: 100%; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
     .card { background-color: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 1.5rem; text-align: center; transition: transform 0.2s, box-shadow 0.2s; }
     .card:hover { transform: translateY(-5px); box-shadow: 0 8px 12px rgba(0,0,0,0.15); }
@@ -25,31 +38,21 @@
 
   <header>
     <h1>Project Hub: Misty Waters Portfolio</h1>
+    <p class="subtitle">AI Developer & UI/UX Designer</p>
   </header>
 
   <main>
     <div class="container">
-      <div class="card">
-        <h2>Documentation</h2>
-        <p>Project overview, requirements, and user flows.</p>
-        <a href="docs/overview.md">Read Docs</a>
-      </div>
-      <div class="card">
-        <h2>Wireframes</h2>
-        <p>Low-fidelity layouts and structural blueprints.</p>
-        <a href="wireframes/index.html">View Wireframes</a>
-      </div>
-      <div class="card">
-        <h2>Interactive Prototype</h2>
-        <p>A clickable, high-fidelity prototype with live data.</p>
-        <a href="prototype/index.html">Launch Prototype</a>
+      <div class="card featured">
+        <h2>🎯 Interactive Portfolio</h2>
+        <p class="featured-description">Experience my complete AI portfolio with projects, resume, and contact information in an interactive format designed for employers.</p>
+        <a href="prototype/index.html" class="featured-link">Launch Interactive Portfolio →</a>
       </div>
     </div>
   </main>
 
   <footer>
-    <a href="docs/overview.md">View Documentation</a>
-    <a href="wireframes/index.html">View Wireframe</a>
+    <a href="prototype/index.html">View Interactive Portfolio</a>
   </footer>
 
 </body>
