@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Let's Vent – AI Wellness Copilot",
+    "description": "GPT-4 powered mental health journaling tool – 2nd place at CreateHERfest Hackathon.",
+    "link": "https://devpost.com/software/let-s-vent",
+    "linkText": "View on Devpost"
+  },
+  {
+    "title": "Mosaic Culture – AI Storytelling App",
+    "description": "LangChain & RAG-powered cultural storytelling platform. Curates unique narratives.",
+    "link": "https://github.com/rainwaters11/Mosaic-Culture",
+    "linkText": "View on GitHub"
+  },
+  {
+    "title": "BlockWhere – Web3 Identity Verifier",
+    "description": "Smart contract–connected AI agent that validates blockchain identities.",
+    "link": "https://github.com/inamprograms/BlockWhere",
+    "linkText": "View on GitHub"
+  }
+]
